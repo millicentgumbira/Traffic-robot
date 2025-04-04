@@ -1,3 +1,7 @@
+import random
+
+name = input("Welcome to treasure hunt")
+print(name)
 
 locations = {
     "beach": {"description": "You are on a beautiful beach.", "items": ["shell"], "exits": ["jungle"]},
