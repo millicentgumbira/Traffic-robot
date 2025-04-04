@@ -1,6 +1,6 @@
 import random
 
-name = input("Welcome to treasure hunt")
+name = input("Welcome to treasure hunt 1")
 print(name)
 
 locations = {
