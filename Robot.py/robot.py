@@ -3,7 +3,7 @@ import time
 def show_light(color: str, duration: int):
     print(f"{color.upper()} light is ON for {duration} seconds")
     time.sleep(duration)
-    print(f"{color.upper()} light is OFF\n")
+    print(f"{color.upper()} light is OFF/n")
 
 def traffic_light_cycle():
     while True:
